@@ -24,5 +24,5 @@ curl --location 'http://localhost:8080/realms/appsdeveloperblog/protocol/openid-
 
 To which url we need to redirect in order to get a code in browser
 
-http://localhost:8080/realms/\<realm-name\>/protocol/openid-connect/auth?client_id=<client-name>&response_type=code&scope=openid profile&redirect_uri=http://localhost:8083/callback&state=hsjkfhsahf
+http://localhost:8080/realms/realm-name/protocol/openid-connect/auth?client_id=client-name&response_type=code&scope=openid profile&redirect_uri=http://localhost:8083/callback&state=hsjkfhsahf
 
